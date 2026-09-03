@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- HTML: Form Tag (block) / รายละเอียด-องค์ประกอบ (inline) -->
+    <form action="" method="">
+        <!-- ตระกูลป้อน -->
+        <label for="">ป้อนอะไรก็ได้*: </label>
+        <input type="text" name="" id="" placeholder="ชื่อ-นามสกุล" required />
+        <br><br>
+        <label for="">ป้อนตัวเลข: </label>
+        <input type="number" name="" id="" placeholder="อายุ" required />
+        <br><br>
+        <label for="">ป้อนรหัสผ่าน: </label>
+        <input type="password" name="" id="" placeholder="ไม่ต่ำกว่า 6 ตัวอักษร" required />
+        <br><br>
+        <label for="">ป้อนอีเมล: </label>
+        <input type="email" name="" id="" placeholder="example@mail.com" required>
+        <br><br>
+        <label for="">ป้อนอะไรก็ได้ที่เนื้อหาเยอะๆ: </label>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <br><br>
+        <!-- ตระกูลเลือก -->
+        <!-- เลือกได้แค่ 1 และต้องเลือก -->
+        <label for="">เพศ: </label>
+        <input type="radio" name="gender" id="">ชาย
+        <input type="radio" name="gender" id="" checked>หญิง
+        <input type="radio" name="gender" id="">LGBTQ+
+        <input type="radio" name="gender" id="">ไม่ระบุ
+        <br><br>
+        <label for="">จังหวัดบ้านเกิด</label>
+        <select name="" id="">
+            <option value="">กรุงเทพ</option>
+            <option value="">นครปฐม</option>
+            <option value="">นนทบุรี</option>
+            <option value="">สมุทรปราการ</option>
+            <option value="">บุรีรัมย์</option>
+            <option value="">เชียงราย</option>
+            <option value="">ชลบุรี</option>
+        </select>
+        <br><br>
+        <label for="">University: </label>
+        <select name="" id="" size="4" multiple> <!-- หรือเรียกว่า List Box -->
+            <option value="">BU</option>
+            <option value="">KU</option>
+            <option value="">SPU</option>
+            <option value="">UTCC</option>
+            <option value="">RSU</option>
+            <option value="">CMU</option>
+        </select>
+        <br><br>
+        <!-- เลือกได้มากกว่า 1 หรือไม่เลือกก็ได้ -->
+        <label for="">เทสที่ชอบ: </label>
+        <input type="checkbox" name="" id="">ใส่แว่น
+        <input type="checkbox" name="" id="">มีแก้ม
+        <input type="checkbox" name="" id="">น่ารัก
+        <input type="checkbox" name="" id="">พูดได้หลายภาษา
+        <input type="checkbox" name="" id="">หลายใจ
+        <br><br>
+        <!-- เลือกไฟล์ -->
+        <!-- เลือกไฟล์แบบไม่กรอง (no filter) -->
+        <label for="">เลือกไฟล์อะไรก็ได้</label>
+        <input type="file" name="" id="">
+        <br><br>
+        <!-- เลือกไฟล์แบบกรอง (filter) -->
+        <label for="">เลือกรูปไฟล์: </label>
+        <input type="file" name="" id="" accept="image/*">
+        <br><br>
+        <label for="">เลือกไฟล์ Word/Excel/PDF: </label>
+        <input type="file" name="" id="" accept=".doc,.docx,.xls,.xlsx,.pdf">
+        <br><br>
+        <!-- เลือกวันเวลา -->
+        <label for="">วันเกิด: </label>
+        <input type="date" name="" id="">
+        <br><br>
+        <label for="">เวลาเกิด: </label>
+        <input type="time" name="" id="">
+        <br><br>
+        <label for="">วัน/เวลา เข้าทำงาน: </label>
+        <input type="datetime-local" name="" id="">
+        <br><br>
+        <!-- ตระกูลปุ่ม -->
+        <input type="submit" value="ตกลง/บันทึก/ลบ/แก้ไข">
+        <button>"ตกลง/บันทึก/ลบ/แก้ไข"</button>
+    </form>
+</body>
+
+</html>
